@@ -1,0 +1,38 @@
+h2{
+	color: white;
+	text-align: left;
+}
+
+body{
+	background-image: url(https://th.bing.com/th/id/Rf0c7a9d11e6a36bf87ff192f9a77d71f?rik=yBKTnUJM0IWOrg&pid=ImgRaw);
+	background-attachment:fixed;
+}
+#texte{
+	width: 200px;
+	height: 200px;
+	margin: 0px;
+	/* couleur d'origne */
+background-color : #000000; /* black */
+
+/* couleur avec transparence */
+background-color : rgba(0,0,0,0.6);
+background-color : hsla(0,0%,0%,0.6);
+background-color : #00000080; /* Norme W3C, CSS4 */
+
+/* Format Alpha Hex : #80000000
+(Propriété spécifique filter de IE) */
+	text-align: center;
+	align-content: center;
+	border: 2mm solid black;
+	border-radius: 10px;
+}
+#discord{
+	border-radius: 10px;
+	width: 80px;
+	height: 80px;
+}
+#twitter{
+	border-radius: 10px;
+	width: 80px;
+	height: 80px;
+}

@@ -1,0 +1,39 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.header{
+	background-image: url(https://c.pxhere.com/photos/a6/40/star_night_sky_star_gazing_blue-1409246.jpg!d);
+	height: 80px;
+	margin: 0px auto;
+	border: 2.5mm ridge rgba(0, 0, 225, 225);
+	border-radius: 45px;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 0px;
+}
+ul li a{
+	color: #fff;
+	letter-spacing: 0.1rem;
+}
+ul li a:hover{
+	color: grey;
+	text-decoration: underline;
+}
+.menu li{
+	float: left;
+	padding: 10px;
+}
+.menu li a{
+	text-decoration: none;
+	font-size: x-large;
+}
+form{
+	padding: 20px;
+	text-align: right;
+}
+input[type="search"]{
+	font-size: 20px;
+}
